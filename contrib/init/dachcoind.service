@@ -1,0 +1,26 @@
+[Unit]
+Description=Dachcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=dachcoin
+Group=dachcoin
+
+Type=forking
+PIDFile=/var/lib/dachcoind/dachcoind.pid
+
+ExecStart=/usr/bin/dachcoind -daemon -pid=/var/lib/dachcoind/dachcoind.pid \
+          -conf=/etc/dachcoin/dachcoin.conf -datadir=/var/lib/dachcoind
+
+ExecStop=-/usr/bin/dachcoin-cli -conf=/etc/dachcoin/dachcoin.conf \
+         -datadir=/var/lib/dachcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

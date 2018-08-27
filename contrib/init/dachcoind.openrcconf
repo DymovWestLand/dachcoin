@@ -1,0 +1,26 @@
+# /etc/conf.d/dachcoind: config file for /etc/init.d/dachcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/dachcoin/dachcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/dachcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/dachcoind.pid"
+
+# Where to write dachcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/dachcoind"
+
+# User and group to own dachcoind process
+#BITCOIND_USER="dachcoin"
+#BITCOIND_GROUP="dachcoin"
+
+# Path to dachcoind executable
+#BITCOIND_BIN="/usr/bin/dachcoind"
+
+# Nice value to run dachcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -11,6 +11,7 @@ Dachcoin (DACH) is a sustainable cryptocurrency modeled after Satoshi Nakamotoâ€
 More information at [dachcoin.live](http://dachcoin.live)
 
 ### Coin Specs
+|-----------------------------|-----------------|
 | Block Time                  | 60  Seconds     |
 | Max Coin Supply (PoW Phase) | 500 DACH        |
 | Max Coin Supply             | 38M DACH        |

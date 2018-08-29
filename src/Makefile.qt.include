@@ -238,7 +238,7 @@ RES_ICONS = \
   qt/res/icons/unit_munit.png \
   qt/res/icons/unit_tmunit.png \
   qt/res/icons/unit_tunit.png \
-  qt/res/icons/unit_tuunit.png
+  qt/res/icons/unit_tuunit.png \
   qt/res/icons/unit_unit.png \
   qt/res/icons/unit_uunit.png
 

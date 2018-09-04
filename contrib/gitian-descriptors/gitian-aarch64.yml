@@ -1,5 +1,5 @@
 ---
-name: "dachcoin-aarch64-1.0.0.1"
+name: "dachcoin-aarch64-1.0.0.2"
 enable_cache: true
 suites:
 - "xenial"

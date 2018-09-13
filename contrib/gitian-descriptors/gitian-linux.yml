@@ -1,5 +1,5 @@
 ---
-name: "dachcoin-linux-1.0.0.2"
+name: "dachcoin-linux-1.0.1.0"
 enable_cache: true
 suites:
 - "trusty"

@@ -150,8 +150,10 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x4a76c6ef834564439989f8fb208831399160fcfb5d093ca30b1220a25c6bd17b"));
 
         // DNS Seeding
-        vSeeds.push_back(CDNSSeedData("seed.dachcoin.live", "seed.dachcoin.live"));
+        vSeeds.push_back(CDNSSeedData("seed1.dachcoin.live", "seed1.dachcoin.live"));
         vSeeds.push_back(CDNSSeedData("seed2.dachcoin.live", "seed2.dachcoin.live"));
+		vSeeds.push_back(CDNSSeedData("seed3.dachcoin.live", "seed3.dachcoin.live"));
+		vSeeds.push_back(CDNSSeedData("seed4.dachcoin.live", "seed4.dachcoin.live"));
 
         // Dachcoin addresses start with 'D'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);

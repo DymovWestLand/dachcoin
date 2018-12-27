@@ -108,7 +108,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // Dachcoin: 1 day
         nTargetSpacing = 1 * 60;  // Dachcoin: 1 minutes
-        nMaturity = 100;
+        nMaturity = 10;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 38000000 * COIN;
 

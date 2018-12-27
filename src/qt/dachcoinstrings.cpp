@@ -203,10 +203,10 @@ QT_TRANSLATE_NOOP("dachcoin-core", ""
 QT_TRANSLATE_NOOP("dachcoin-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("dachcoin-core", "(31701 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("dachcoin-core", "(31601 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("dachcoin-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("dachcoin-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("dachcoin-core", "(must be 31701 for mainnet)"),
+QT_TRANSLATE_NOOP("dachcoin-core", "(must be 31601 for mainnet)"),
 QT_TRANSLATE_NOOP("dachcoin-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("dachcoin-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("dachcoin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
